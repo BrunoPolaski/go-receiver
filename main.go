@@ -27,7 +27,7 @@ func main() {
 
 	fmt.Println("\nRunning!")
 
-	if err := r.Run("localhost:8088"); err != nil {
+	if err := r.Run(":8088"); err != nil {
 		panic(err)
 	}
 }
